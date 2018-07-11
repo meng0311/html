@@ -1,0 +1,168 @@
+body{
+    background-color: #f4f4f4;
+}
+
+.label{
+    width: 1519px;
+    height: 30px;
+    background-color: #FF9000;
+}
+
+.label-content{
+    width: 1010px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.label li{
+    display: inline-block;
+    float: left;
+    padding-right:7px;
+    padding-left: 7px;
+    line-height: 30px;
+    color: white;
+}
+
+.label li a{
+    text-decoration: none;
+    color: white;
+}
+
+.issu{
+    width:176px ;
+    height: 30px;
+    background-color: #ff5000 ;
+    text-align: center;
+}
+
+.one-content{
+    width: 1010px;
+    height: 632px;
+    left: 50%;
+    margin-left: -505px;
+    display: flex;
+    position: absolute;
+}
+
+.one-left{
+    float: left;
+    width: 190px;
+    height: 522px;
+    background-color:white;
+    border: 1px solid #f40;
+}
+
+.one-left li{
+    display: inline-block;
+    width: 145px;
+    height: 32px;
+    padding-left: 25px;
+    padding-right:19px;
+    font-size: 14px;
+    color: #666;
+
+}
+
+
+
+.one-left li a{
+    color: #666;
+    text-decoration: none;
+}
+
+.one-left li a:hover{
+    color: #f40;
+    text-decoration: underline;
+}
+
+.one-mid{
+    height: 522px;
+    flex: 1;
+    background-color: turquoise;
+}
+
+.one-right{
+    float: right;
+    width: 290px;
+    height: 632px;
+    top: 0;
+}
+
+.one-bottom{
+    width: 676px;
+    height: 73px;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background-color: yellow;
+    border: 10px solid #fff;
+}
+
+.ad1{
+    display: inline-block;
+    width: 520px;
+    height: 280px;
+}
+
+.ad2{
+    display: inline-block;
+    width: 520px;
+    height: 230px;
+}
+
+.one-right img{
+    width: 290px;
+    height: 150px;
+}
+
+.right-mid li{
+    float: left;
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    border-bottom: 2px solid #f40;
+    margin: 0 11px;
+    overflow: hidden;
+}
+
+.right-mid li a{
+    text-decoration: none;
+    color: #666;
+}
+
+.right-mid{
+    overflow: hidden;
+    position: absolute;
+    top: 165px;
+    right: 15px;
+}
+
+
+.right-down div{
+    margin-top: 2px;
+    width:290px ;
+    height: 20px;
+    font-size: 13px;
+}
+
+.right-down{
+    position: absolute;
+    top: 210px;
+    right: -15px;
+}
+
+table{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.table{
+    display: inline-block;
+    position: absolute;
+    bottom: 120px;
+    right: -10px;
+    width: 290px;
+    height: 232px;
+}
